@@ -1,0 +1,198 @@
+@media(max-width:480px)
+{
+  .navbarcontainer
+  {
+    display: flex;
+    flex-direction: column;
+    height: auto; 
+  } 
+  .logo
+  {
+    width: 15%;
+    height: 40px;
+    background-color: azure;
+   }
+   .menu ul 
+   {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+   .menu ul li
+   {
+    padding: 3px 0px;
+   }
+   .search
+   {
+    width: 50%;
+   }
+   .benner
+   {
+    height: 200px;
+   }
+   .benner img
+   {
+    height: 200px;
+   }
+   .lorem
+   {
+    width: 99%;
+    font-size: 15px;
+   }
+   .new
+   {
+    font-size: 20px;
+    font-weight: 2000;
+    margin-top: 3%;
+    
+   }
+   .piccontainer
+   {
+    display: flex;
+    flex-wrap: wrap;
+    height: 540px;
+  
+   }
+   .picbox
+   {
+    width: 47%;
+     justify-content: space-between;
+   } 
+   .picbox img
+   {
+    width: 90%;
+      height: 93%;
+   }
+   .picbox p
+   {
+    font-size: 15px;
+   }
+   .price 
+   {
+    font-size: 15px;
+   }
+   .curated p
+   {
+    font-size: 20px;
+   }
+   .threebox
+   {
+    height: auto;
+   }
+   .contenpic
+   {
+    height: auto;
+    
+   }
+   .contenpic img
+   {
+    height: 200px;
+   }
+   .contennerbox
+   {
+    height: 770px;
+   }
+  .forebox
+  {
+    display: flex;
+    flex-wrap: wrap;
+    height: 770px;
+  }
+  .cbox
+  {
+    width: 45%;
+  }
+  .keep
+  {
+    display: none;
+  }
+  .wvertday 
+  {
+    width: 45%;
+    height: 200px;
+  }
+  .wvertday img
+  {
+    height: 200px;
+  }
+  .pants 
+  {
+    width: 45%;
+    height: 200px;
+  }
+  .pants  img 
+  {
+    height: 200px;
+  }
+  .ox
+  {
+    font-size: 19px;
+    font-weight: 2000;
+  }
+  .drops
+  {
+    font-size: 20px;
+    margin-top: 30px;
+  }
+  .layes
+  {
+    display: none;
+  }
+  .feel
+  {
+    display: none;
+  }
+  .madeto
+  {
+    width: 45%;
+    height: 200px;
+  }
+  .madeto img
+  {
+    height: 200px;
+  } 
+  .thatt
+  {
+    width: 45%;
+    height: 200px;
+  }
+  .thatt img
+  {
+    height: 200px;
+  } 
+  .liveloopse img 
+  {
+    height: 230px;
+  }
+  .our 
+  {
+    font-size: 19px;
+    font-weight: 2000;
+  }
+  .levl
+  {
+    font-size: 19px;
+    font-weight: 2000;
+    margin-top: 0px;
+  }
+  .shopmen
+  {
+    display: flex;
+    flex-direction: column;
+  
+  }
+  .men
+  {
+    width: 95%;
+   margin: 29px 0px; 
+  
+  }
+  .shopmen img 
+  {
+    height: 450px;
+  }
+   .footer
+   {
+    display: none;
+   }
+}

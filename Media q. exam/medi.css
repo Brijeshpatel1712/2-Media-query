@@ -1,0 +1,24 @@
+@media(max-width:480px)
+{
+    .central
+    {
+        height: 900px;
+    
+    }
+    .midal
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0%;
+
+    
+    }
+    .box
+    {
+        width: 70%;
+        margin-top: 90px;
+    }
+
+
+}
