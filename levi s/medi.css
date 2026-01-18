@@ -1,0 +1,220 @@
+/* Tablet Version (768px) */
+@media (max-width: 768px) {
+  .navbarcontainer {
+    width: 95%;
+  }
+
+  .logo {
+    width: 15%;
+  }
+
+  .checkbtn {
+    display: block;
+    font-size: 24px;
+  }
+
+  .menu {
+    position: fixed;
+    width: 70%;
+    height: 100vh;
+    background: #fff;
+    top: 0;
+    left: -100%;
+    text-align: left;
+    padding-top: 80px;
+    padding-left: 30px;
+    transition: all .5s ease-in-out;
+    z-index: 1000;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .menu ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .menu ul li {
+    margin: 15px 0;
+  }
+
+  .menu ul li a {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  #check:checked~.menu {
+    left: 0;
+  }
+
+  .search {
+    width: 40%;
+  }
+
+  .search input {
+    font-size: 12px;
+  }
+
+  .picbox {
+    width: 48%;
+    margin-bottom: 20px;
+  }
+
+  .tbox {
+    width: 48%;
+    margin-bottom: 15px;
+  }
+
+  .cbox {
+    width: 48%;
+    margin-bottom: 30px;
+  }
+
+  .wvertday,
+  .pants,
+  .keep {
+    width: 48%;
+    margin-bottom: 20px;
+  }
+
+  .madeto,
+  .thatt,
+  .layes,
+  .feel {
+    width: 48%;
+    margin-bottom: 20px;
+  }
+
+  .shopmen {
+    flex-direction: column;
+  }
+
+  .men {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .two1 {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .fore {
+    width: 48%;
+    margin-bottom: 20px;
+  }
+
+  .two2 {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+
+/* Mobile Version (480px) - Android / iPhone */
+@media (max-width: 480px) {
+  .navbarcontainer {
+    height: 60px;
+  }
+
+  .logo {
+    width: 20%;
+  }
+
+  .search {
+    width: 50%;
+  }
+
+  .search input {
+    display: none;
+  }
+
+  .search i {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .lorem {
+    font-size: 12px;
+    padding: 10px;
+  }
+
+  .new,
+  .curated p,
+  .ox,
+  .drops,
+  .our p,
+  .levl p {
+    font-size: 24px;
+  }
+
+  .picbox,
+  .tbox,
+  .cbox,
+  .wvertday,
+  .pants,
+  .keep,
+  .madeto,
+  .thatt,
+  .layes,
+  .feel,
+  .fore {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .piccontainer,
+  .threebox,
+  .forebox,
+  .it,
+  .made,
+  .two1 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer {
+    text-align: center;
+  }
+
+  .twobox {
+    flex-direction: column;
+  }
+
+  .two1 {
+    flex-direction: column;
+  }
+
+  .fore {
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+  }
+
+  .intwo {
+    width: 90%;
+  }
+
+  .lest {
+    flex-direction: column;
+    height: auto;
+    padding-bottom: 20px;
+  }
+
+  .lest1 ul {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .lest2 {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .lest2 ul {
+    justify-content: center;
+    padding: 0;
+  }
+
+  .lest2 ul li {
+    margin: 0 15px;
+  }
+}
